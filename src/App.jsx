@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = `${import.meta.env.VITE_API_URL || ""}/api/todos`;
+const API = `${import.meta.env.VITE_API_URL || ""}/`;
 
 export default function App() {
   const [todos, setTodos] = useState([]);
